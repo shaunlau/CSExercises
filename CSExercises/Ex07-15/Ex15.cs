@@ -18,7 +18,7 @@ namespace CSExercises
             int secondValue = integer1 % 10;
             integer1 = integer1 / 10;
             int thirdValue = integer1 % 10;
-            double totalValue = Math.Pow((double)firstValue, 3) + Math.Pow((double)secondValue, 3) + Math.Pow((double)secondValue, 3);
+            double totalValue = Math.Pow((double)firstValue, 3) + Math.Pow((double)secondValue, 3) + Math.Pow((double)thirdValue, 3);
             if (totalValue - integer < 0.001)
                 System.Console.WriteLine("armstrong number");
             else
