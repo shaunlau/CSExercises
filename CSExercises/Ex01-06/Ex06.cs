@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.Write("Please enter an int: ");
+            int number = Convert.ToInt32(System.Console.ReadLine());
+            System.Console.WriteLine(Math.Round(Math.Sqrt(number),3));
         }
     }
 }

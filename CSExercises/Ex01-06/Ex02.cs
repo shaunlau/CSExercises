@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            int number;
+            System.Console.Write("Please enter an integer: ");
+            number = Convert.ToInt32(Console.ReadLine());
+            System.Console.WriteLine(Math.Pow(number, 2));
         }
     }
 }
