@@ -17,7 +17,7 @@ namespace CSExercises
             double distance = Convert.ToDouble(Console.ReadLine());
 
             //Rounding up the value to 1 decimal place
-            distance = Math.Ceiling(distance * 10) / 10;
+            distance = Math.Ceiling(Math.Round(distance,2) * 10) / 10;
 
             //fare for first 0.5km
             if (distance <= 0.5)
